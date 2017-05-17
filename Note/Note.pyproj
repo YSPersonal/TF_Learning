@@ -3,16 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>0c915a31-caf7-4039-a59c-3fdf8aab7a6c</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>cnn_advanced.py</StartupFile>
+    <ProjectGuid>8357622c-c6c9-4069-8cfd-01e89ac57e25</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>Note.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>TF_Learning</Name>
-    <RootNamespace>TensorFlow</RootNamespace>
+    <Name>Note</Name>
+    <RootNamespace>Note</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,13 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="cnn_advanced.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="cnn_simple.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="softmax_regression.py" />
+    <Compile Include="Note.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
