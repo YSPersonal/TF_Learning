@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 # Cross Entropy
 
 ## 定义
@@ -11,6 +9,7 @@
 Cross-entropy 的定义如下：
 
 $$H_{y'} = -\sum_i {y'}_i log(y_i)$$
+<img src="http://chart.googleapis.com/chart?cht=tx&chl= H_{y'} = -\sum_i {y'}_i log(y_i)" style="border:none;">
 
 其中 y 是预测的概率分布， y'是真实的概率分布。
 
