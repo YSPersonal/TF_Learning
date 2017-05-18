@@ -9,6 +9,7 @@
 Cross-entropy 的定义如下：
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl= H_{y'} = -\sum_i {y'}_i log(y_i)" style="border:none;">
+<img src="http://www.forkosh.com/mathtex.cgi? \Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}">
 
 其中 y 是预测的概率分布， y'是真实的概率分布。
 
